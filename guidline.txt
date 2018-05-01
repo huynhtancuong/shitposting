@@ -23,3 +23,7 @@ git checkout branch_name
 
 DELETE BRANCH
 git branch -D branch_name
+
+GIT LOG
+git log
+git log file_path
