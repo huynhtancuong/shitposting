@@ -1,0 +1,25 @@
+CLONE CODE FROM GIT
+git clone url.git
+
+git add --all
+git add file_path
+
+git commit -m "message"
+
+git push --progress -v "origin" branch_name
+git pull --progress -v "origin" branch_name
+
+CREATE NEW BRANCH
+git checkout -b new_branch_name old_branch_name --
+
+ROLLBACK FILE
+git checkout md5_commit_hash_code file_path
+
+CHECK BRANCH
+git branch
+
+SWITCH TO OTHER BRANCH
+git checkout branch_name
+
+DELETE BRANCH
+git branch -D branch_name
